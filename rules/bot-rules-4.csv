@@ -1,0 +1,107 @@
+##
+## Rules for SimpleEngine
+#
+# These rules were generated using ChatGPT and the followng prompt
+#
+# I need you to generate a CSV file for my Hybrid AI Bot FAQ system that follows these requirements:
+#
+#   Format: The CSV should have message,response columns and use wildcard-based matching (*) for flexible query handling.
+#   Source Information: Use the OwlMind framework from GitHub, the assignment document I provided, and our past conversation history to extract relevant FAQs.
+#   Broad Matching: Generate multiple variations per question to account for different ways users might phrase their queries.
+#   Pre-generated Hybrid Matching: Instead of modifying the bot’s code, apply manual pre-generated variations to simulate fuzzy matching.
+#   Compliant with Project Rules: The final CSV must work without requiring any modifications to the bot's source code—it should only update the rules in the CSV.
+#   High Priority FAQs: Prioritize the most commonly asked questions from my assignment and project documentation.
+#   Output Format: Provide the CSV content here so I can copy and paste it directly into my rules/ directory.
+#   Once generated, let me know if there are any gaps or if I should further refine the variations.
+#
+
+message,response
+*explain the assignment*,"The objective of this assignment is to gain exposure to advanced Generative AI solution design and development by creating a Hybrid AI Bot that balances rule-based and GenAI-based cognition. You must create a first version of the bot (v0.1), add it to the course Discord server, and submit a PDF with screenshots of your running bot on CANVAS. The bot must be implemented using the OwlMind framework without modifying the source code (except for bug fixes). For setup and installation, refer to the GitHub repository: https://github.com/genilab-fau/owlmind."
+
+*start working on the Hybrid AI Bot*,"Clone the OwlMind repository from GitHub and follow the README instructions: https://github.com/genilab-fau/owlmind."
+*get started with the bot*,"Clone the OwlMind repository from GitHub and follow the README instructions: https://github.com/genilab-fau/owlmind."
+*get started*,"Clone the OwlMind repository from GitHub and follow the README instructions: https://github.com/genilab-fau/owlmind."
+*begin using the bot*,"Clone the OwlMind repository from GitHub and follow the README instructions: https://github.com/genilab-fau/owlmind."
+*first steps for setting up the bot*,"Clone the OwlMind repository from GitHub and follow the README instructions: https://github.com/genilab-fau/owlmind."
+*how do I get started with the bot*,"Clone the OwlMind repository from GitHub and follow the README instructions: https://github.com/genilab-fau/owlmind."
+
+*submit my assignment*,"Submit your PDF with screenshots of your bot on CANVAS."
+*where do I submit my project*,"Submit your PDF with screenshots of your bot on CANVAS."
+*how to turn in my bot project*,"Submit your PDF with screenshots of your bot on CANVAS."
+*where should I upload my assignment*,"Submit your PDF with screenshots of your bot on CANVAS."
+*where is the submission page*,"Submit your PDF with screenshots of your bot on CANVAS."
+
+*framework*,"You must use the OwlMind framework for this assignment. Custom modifications are not allowed."
+*what framework is used*,"You must use the OwlMind framework for this assignment. Custom modifications are not allowed."
+*can I use a different framework*,"You must use the OwlMind framework for this assignment. Custom modifications are not allowed."
+
+*install the OwlMind framework*,"Follow the installation steps in the README.md file on GitHub: https://github.com/genilab-fau/owlmind."
+*how to install OwlMind*,"Follow the installation steps in the README.md file on GitHub: https://github.com/genilab-fau/owlmind."
+*installation steps for OwlMind*,"Follow the installation steps in the README.md file on GitHub: https://github.com/genilab-fau/owlmind."
+*set up OwlMind*,"Follow the installation steps in the README.md file on GitHub: https://github.com/genilab-fau/owlmind."
+
+*modify the source code*,"No, you cannot modify the source code except for bug fixes. This is to expose limitations for the next phase. See GitHub for more details: https://github.com/genilab-fau/owlmind."
+*can I change the source code*,"No, you cannot modify the source code except for bug fixes. This is to expose limitations for the next phase. See GitHub for more details: https://github.com/genilab-fau/owlmind."
+*am I allowed to edit the bot code*,"No, you cannot modify the source code except for bug fixes. This is to expose limitations for the next phase. See GitHub for more details: https://github.com/genilab-fau/owlmind."
+
+*deploy my bot to Discord*,"Register your bot on the course Discord server using the provided instructions."
+*how do I deploy my bot*,"Register your bot on the course Discord server using the provided instructions."
+*upload my bot to Discord*,"Register your bot on the course Discord server using the provided instructions."
+*how do I make my bot go live on Discord*,"Register your bot on the course Discord server using the provided instructions."
+
+*PDF submission include*,"Your name, screenshots of your running bot, prompts/responses, and proposed improvements to the development platform."
+*what should my submission have*,"Your name, screenshots of your running bot, prompts/responses, and proposed improvements to the development platform."
+*what do I need to include in my PDF*,"Your name, screenshots of your running bot, prompts/responses, and proposed improvements to the development platform."
+
+*choose any use case*,"Yes, but it must balance rule-based logic with Generative AI cognition."
+*can I use any use case*,"Yes, but it must balance rule-based logic with Generative AI cognition."
+*what kind of use cases are allowed*,"Yes, but it must balance rule-based logic with Generative AI cognition."
+
+*bot does not respond*,"Ensure your CSV rule file is correctly formatted and that the bot's configuration loads the rules properly."
+*bot is not working*,"Ensure your CSV rule file is correctly formatted and that the bot's configuration loads the rules properly."
+*bot is not replying*,"Ensure your CSV rule file is correctly formatted and that the bot's configuration loads the rules properly."
+
+*objective of this assignment*,"To gain exposure to advanced Generative AI solution design and development by creating a Hybrid AI Bot."
+*what is the goal of this project*,"To gain exposure to advanced Generative AI solution design and development by creating a Hybrid AI Bot."
+
+*deliverables*,"A working Hybrid AI Bot (v0.1), registered on the course Discord server, and a PDF submission with required details."
+*what do I need to turn in*,"A working Hybrid AI Bot (v0.1), registered on the course Discord server, and a PDF submission with required details."
+
+*integrate rule-based logic*,"Define a CSV file containing patterns and responses, then ensure your bot loads and applies these rules correctly."
+*how do I add rules to my bot*,"Define a CSV file containing patterns and responses, then ensure your bot loads and applies these rules correctly."
+
+*question is not in the rule-based system*,"The bot should fall back to using Generative AI to generate a response."
+*what happens if the bot doesn't find a rule*,"The bot should fall back to using Generative AI to generate a response."
+
+*development platform*,"The OwlMind Framework must be used for development."
+*what platform does this project use*,"The OwlMind Framework must be used for development."
+
+*balance rule-based and GenAI cognition*,"Use rule-based logic for structured responses and Generative AI for more complex, unstructured queries."
+*how do I mix rules and GenAI*,"Use rule-based logic for structured responses and Generative AI for more complex, unstructured queries."
+
+*purpose of using Generative AI*,"GenAI is used to handle user queries that are not covered by predefined rules."
+*why is GenAI included in this project*,"GenAI is used to handle user queries that are not covered by predefined rules."
+
+*Discord server link*,"You can register your bot on the course Discord server using the provided invitation link."
+*where is the Discord server*,"You can register your bot on the course Discord server using the provided invitation link."
+
+*how do I test my bot*,"Run `python bot-1.py` in your terminal. Ensure your rules file is correctly formatted and that the bot loads it properly."
+*how to run my bot*,"Run `python bot-1.py` in your terminal. Ensure your rules file is correctly formatted and that the bot loads it properly."
+
+*install the OwlMind framework*, "Follow the installation steps in the README.md file on GitHub: https://github.com/genilab-fau/owlmind."
+*set up OwlMind*, "Follow the setup guide in the GitHub repository: https://github.com/genilab-fau/owlmind."
+*submit my assignment*, "Submit your PDF with screenshots of your bot on CANVAS. If you need clarification, ask the professor via email or on Discord."
+*where do I submit my project*, "Submit your PDF with screenshots of your bot on CANVAS. If unsure, check Discord for updates from the professor."
+*why is my bot not working*, "Check your CSV formatting, dependencies, and error messages. If you need further help, check the GitHub repo or ask on Discord."
+
+*what is *, @prompt/Just provide the definition concisely, as a FAQ bot. If related to the Hybrid AI Bot, direct them to the GitHub repo: https://github.com/genilab-fau/owlmind.
+*explain *, @prompt/Provide a clear, structured explanation, staying relevant to AI and software topics. If applicable, reference the GitHub repo: https://github.com/genilab-fau/owlmind.
+*define *, @prompt/Offer a direct, dictionary-style definition.
+*how do I *, @prompt/Respond as an FAQ assistant. Provide a structured, step-by-step guide. If more details are needed, suggest checking the GitHub repo: https://github.com/genilab-fau/owlmind.
+*how to *, @prompt/Explain the process in an instructional manner, focusing on AI-related tasks. If applicable, reference the GitHub repo.
+*why does *, @prompt/Analyze the possible reasons and provide a concise explanation.
+*error in *, @prompt/Diagnose the most common causes of this error and suggest troubleshooting steps. If the issue persists, direct them to check the GitHub repo or reach out on Discord.
+*bot not responding*, @prompt/Check configuration, network, or missing files. Provide structured debugging help. If still unresolved, suggest checking GitHub issues or asking on Discord.
+*write a function that *, @prompt/Generate a simple, well-commented Python function as an example.
+*generate code for *, @prompt/Provide a concise, working example in Python or Java, depending on context.
+*, @prompt/Act as an AI FAQ assistant for this project. If the user needs more help, suggest checking the GitHub repo: https://github.com/genilab-fau/owlmind or reaching out on Discord.
